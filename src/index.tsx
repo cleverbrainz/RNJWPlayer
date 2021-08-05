@@ -5,8 +5,7 @@ type RnjwplayerProps = {
   style: ViewStyle;
 };
 
-export const RnjwplayerViewManager = requireNativeComponent<RnjwplayerProps>(
-'RnjwplayerView'
-);
+export const RnjwplayerViewManager =
+  requireNativeComponent<RnjwplayerProps>('RnjwplayerView');
 
 export default RnjwplayerViewManager;
